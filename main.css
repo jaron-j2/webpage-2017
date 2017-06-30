@@ -1,7 +1,34 @@
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
   padding-top: 5rem;
 }
+
 .title {
-  padding: 3rem 1.5rem;
+  padding: 6.25rem 1.5rem;
   text-align: center;
+}
+
+.topbar-design {
+	height: 6.25rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.test-pad {
+	background-color: grey;
+}
+
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+	color: #9e9e9e;
+	text-align: center;
 }
