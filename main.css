@@ -3,37 +3,42 @@
 }
 
 @media (orientation: portrait) { 
-    .carousel-item.active,
-    .carousel-item-next,
-    .carousel-item-prev {
-        display: block;
-        width:100%;
-        height:auto;
-    }
+	.carousel-item.active,
+	.carousel-item-next,
+	.carousel-item-prev {
+		display: block;
+		width:100%;
+		height:auto;
+	}
 }
 
 @media (orientation: landscape) { 
-    .carousel-item.active,
-    .carousel-item-next,
-    .carousel-item-prev {
-        display: block;
-        width:100%;
-        height:auto;
-        max-height: 80vh;
-    }
+	.carousel-item.active,
+	.carousel-item-next,
+	.carousel-item-prev {
+		display: block;
+		width:100%;
+		height:auto;
+		max-height: 80vh;
+	}
 }
 
 div {
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  padding-top: 5rem;
+	padding-top: 5rem;
+}
+
+h1 {
+	font-weight: 700;
+
 }
 
 .title {
-  padding: 6.25rem 1.5rem;
-  text-align: center;
+	padding: 6.25rem 1.5rem;
+	text-align: center;
 }
 
 .topbar-design {
@@ -57,4 +62,17 @@ body {
 
 #.topbar-buffer {
 	margin-top: 6.25rem;
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+	text-shadow: 5px 5px 10px #000000;
+}
+
+.carousel-item {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
 }
