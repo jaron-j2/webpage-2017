@@ -81,6 +81,10 @@ h1 {
 	text-align: justify;
 }
 
+#what-i-do-section {
+	height: 45rem;
+}
+
 .topbar-design {
 	height: 6.25rem;
 	background-color: white;
