@@ -216,3 +216,8 @@ h1 {
 #moreSkill {
 	display: none;
 }
+
+.alert-danger {
+	text-align: center;
+	padding: 1rem;
+}
