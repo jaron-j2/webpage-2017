@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $('.carousel').carousel("pause")
+  $('.carousel').carousel('pause');
 
   $("#expandSkill").click(function(){
     $("#moreSkill").slideToggle("slow");
