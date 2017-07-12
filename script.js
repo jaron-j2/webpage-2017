@@ -16,7 +16,7 @@ $(document).ready(function() {
   });
 
   $("#expandMarket").click(function(){
-    $(".more-market").slideToggle("slow");
+    $(".more-market").slideToggle(1500);
   });
 
   $("#expandMarket").on({
@@ -29,7 +29,7 @@ $(document).ready(function() {
   });
 
   $("#expandDesign").click(function(){
-    $(".more-design").slideToggle("slow");
+    $(".more-design").slideToggle(1000);
   });
 
   $("#expandDesign").on({
