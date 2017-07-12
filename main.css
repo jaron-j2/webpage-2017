@@ -244,6 +244,13 @@ iframe {
 	padding: 1rem;
 }
 
+.alert-success {
+	text-align: center;
+	margin-top: 6.25rem;
+	padding: 1rem;
+	margin-bottom: 0;
+}
+
 .btn-secondary {
 	-webkit-transition: box-shadow 0.2s; /* For Safari 3.1 to 6.0 */
 	transition: box-shadow 0.2s;
