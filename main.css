@@ -57,14 +57,14 @@ iframe {
 
 .white-section {
 	background-color: white;
-	height: 40rem;
+	min-height: 30rem;
 }
 
 .grey-section {
 	background-color: #f5f5f5;
 	-webkit-box-shadow:inset 0 0 25px -2.5px #C4C4C4;
 	box-shadow:inset 0 0 25px -2.5px #C4C4C4;
-	height: 40rem;
+	min-height: 30rem;
 }
 
 .footer {
@@ -177,6 +177,18 @@ iframe {
 	text-shadow: 0px 0px 0px #000000;
 }
 
+#workBox {
+	min-height: 40rem;
+}
+
+#whoBox {
+	min-height: 35rem;
+}
+
+#contactBox {
+	min-height: 40rem;
+}
+
 .who-title {
 	font-weight: 900;
 	font-size: 2.5rem;
@@ -244,7 +256,47 @@ iframe {
 }
 
 .video-container {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	height: 40rem;
+	padding-top: 2rem;
+	min-height: 40rem;
+}
+
+#vid-des {
+	text-align: justify;
+	font-size: 1rem;
+}
+
+#mainMarket {
+	min-height: 30rem;
+}
+
+#expandMarket {}
+
+.more-market {
+	display: none;
+}
+
+#mainDesign {
+	min-height: 30rem;
+}
+
+.role-title {
+	padding-top: 2.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 4rem;
+	font-weight: 900;
+	text-align: center;
+	color: black;
+}
+
+.steps-title {
+	padding-top: 2.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 2rem;
+	font-weight: 900;
+	text-align: center;
+	color: black;
+}
+
+.more-design {
+	display: none;
 }
