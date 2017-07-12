@@ -307,10 +307,10 @@ iframe {
 
 .img-position {
 	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
 }
 
 .roles-text {
@@ -321,11 +321,17 @@ iframe {
 }
 
 hr { 
-    display: block;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
+	display: block;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
+
+.img-look {
+	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.4);
 }
